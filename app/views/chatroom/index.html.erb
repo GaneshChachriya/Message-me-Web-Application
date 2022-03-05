@@ -6,38 +6,12 @@
     <div class="twelve wide column">
         <div class="ui fluid raised card chatbox">
         <div class="content">
-         <div class="ui small feed">
-         <div class="event">
-         <div class="content">
-         <div class="summary">
-         <em>Elliot</em>: Hello stevie
+         <div class="ui feed">
+          <%= render @messages %>       
+        
          </div>
          </div>
-         </div>
-         <div class="event">
-         <div class="content">
-         <div class="summary">
-          <em>Stevie Feliciano</em>: Hello helen
-         </div>
-         </div>
-         </div>
-         <div class="event">
-         <div class="content">
-         <div class="summary">
-         <em>Helen Troy</em>: Hello
-         </div>
-         </div>
-        </div>
-        <div class="event">
-         <div class="content">
-           <div class="summary">
-           <em>Christian Rocha</em>: Test Message
-           </div>
-         </div>
-         </div>
-         </div>
-         </div>
-         <div class="content">
+         <div class="extra content">
              <form class="ui reply form">
                  <div class="field">
                      <div class="ui fluid icon input">
